@@ -1,0 +1,89 @@
+/* Add Expense */
+
+.add-expense{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-expense .add-btn{
+    padding: .7rem 1.5rem;
+    background-color: #9b0027;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border-radius: .5rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    /* display: none; */
+}
+
+.add-expense{
+    margin-top: 2rem;
+    background-color: rgba(0, 0, 0, 0.336);
+    border-radius: .7rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.add-expense .add-detail{
+    margin-top: -1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.add-expense .add-detail .title +div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.add-expense .add-detail .title, .add-expense .add-detail .title +div .amount, .add-expense .add-detail .title +div .date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-expense .add-detail .btns{
+    display: flex;
+    gap: 1rem;
+}
+
+.add-expense .add-detail .title input{
+    width: 21rem !important;
+    height: 2.5rem !important;
+}
+
+.add-expense .add-detail .amount input, .home-wrapper div:nth-child(1) .add-expense .add-detail .date input{
+    width: 10rem !important;
+    height: 2.5rem !important;
+}
+
+.add-expense .add-detail div{
+    margin-top: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-expense .add-detail div .btn{
+    padding: .7rem 1.5rem;
+    background-color: rgb(155, 0, 39);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border-radius: .5rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.add-expense .add-detail div:nth-child(3){
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}

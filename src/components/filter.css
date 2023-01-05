@@ -1,0 +1,7 @@
+/* Filter */
+
+.home-wrapper .content .filter select{
+    width: 7rem;
+    height: 2.2rem;
+    border-radius: .3rem;
+}
