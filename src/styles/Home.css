@@ -14,3 +14,13 @@
     border-radius: .7rem;
     background-color: rgba(0, 0, 0, 0.336);
 }
+
+@media screen and (max-width: 575px) {
+    .home-wrapper{
+        background: none;
+        padding: 0rem;
+        margin: 2rem 0;
+        border-radius: 0;
+        color: white;
+    }
+}
